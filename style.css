@@ -1,0 +1,43 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+p{
+    line-height: 2;
+}
+section:nth-of-type(even){
+    background-color: fuchsia;
+    font-size: 24px;
+}
+section:nth-of-type(even) h2{
+    border: 15px solid blue;
+}
+section:nth-of-type(odd){
+    background-color: #ccc;
+}
+section:nth-of-type(odd) h2{
+    border-bottom: 12px double crimson;
+}
+dl{
+    color: white;
+    background-color: rgb(0, 0, 255);
+}
+dt{
+    background-color: grey;
+    padding: 20px;
+}
+dd{
+    line-height: 2;
+
+}
+ol li:nth-child(3n),
+ul li:nth-child(2n){
+    background-color: lightgreen;
+    padding-block: 15px;
+}
+img[src^="http"]{
+    border-radius: 0 50px 0 50px;
+}
+img[src^="./"]{
+    border-radius: 50px 0 50px 0;
+}
